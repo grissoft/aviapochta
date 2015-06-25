@@ -1,0 +1,87 @@
+html,body {
+    height: 100%; /* задаем высоту тела документа */
+}
+html {
+    padding:0px;
+    margin:0px;
+}
+body {
+    padding:0px;
+    margin:0px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #000;
+	font-size:24px;
+    font-style: italic;
+}
+.wrap {
+    min-height: 100%
+}
+h1 {
+    font-size:24px;
+}
+table {
+    font-size:18px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width:600px;
+    margin:20px auto;
+}
+table td {
+    padding:0 10px;
+
+}
+
+.table tr:nth-child(2n), .table thead {
+    background: none repeat scroll 0% 0% #F9F9F9;
+}
+.header {
+    width:100%;
+    background: #dedede;
+    text-align: center;
+    padding-top: 80px;
+    height:220px;
+}
+.container {
+    padding-top:50px;
+    text-align: center;
+    width:980px; 
+    margin:0 auto;
+}
+.title {
+    
+    margin-bottom: 20px;
+}
+.input-lg {
+    font-family: 'Open Sans', sans-serif;
+    width:350px;
+    border:1px solid #edeff1;
+    padding: 5px 10px;
+    font-size:24px;
+    font-style: italic;
+}
+.btn {
+    cursor:pointer;
+    padding:5px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size:24px;
+    font-style: italic;
+    background: #00a5c7;
+    color:#FFF;
+    text-transform: uppercase;
+    border:0px;
+}
+.btn:hover {
+    background: #00b9df;
+}
+.footer {
+    margin-top:-40px;
+    height:40px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.hFooter {
+    clear: both;
+    height: 40px;
+}
